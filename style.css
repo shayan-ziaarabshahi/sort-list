@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+li {
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+li span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+li div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(94, 255, 0);
+    outline: none;
+    border: none;
+}
+button:active {
+    transform: scale(0.95);
+}
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.true {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.over {
+    background-color: lightskyblue;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.btnContainer button {
+    margin: 1rem;
+}
+
+
+
+
